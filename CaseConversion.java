@@ -5,7 +5,9 @@ import java.util.*;
 public class CaseConversion {
     public String solution(String str){
         String answer = "";
+        //toCharArray()는 문자열을 char형 배열로 변환
         for(char x: str.toCharArray()){
+            // isLowerCase/isUpperCase는 소문자인지/대문자인지 참 거짓 판별
             if(Character.isLowerCase(x)) answer += Character.toUpperCase(x);
             else answer += Character.toUpperCase(x);
         }
