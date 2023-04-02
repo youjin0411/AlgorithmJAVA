@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 public class FlipTheWord {
     // ArrayList의 String형으로 리턴
-    public ArrayList<String> solution(int n, String[] str){
+    public ArrayList<String> solution(String[] str){
         // ArrayList answer 선언
         ArrayList answer = new ArrayList<>();
         for(String s: str){
@@ -25,7 +25,7 @@ public class FlipTheWord {
         for(int i=0; i<n; i++){
             str[i]=kb.next();
         }
-        for(String x : T.solution(n, str)){
+        for(String x : T.solution(str)){
             System.out.println(x);
         }
     }
