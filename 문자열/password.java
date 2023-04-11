@@ -1,3 +1,5 @@
+package 문자열;
+
 import java.util.*;
 class password {
     public String solution(int n, String s){
